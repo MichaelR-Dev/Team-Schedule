@@ -20,10 +20,3 @@ for (const element of workSelectors) {
         element.appendChild(option)
     }); 
 }
-
-const selectMember = () => {
-
-    for (const element of workSelectors) {
-        if(element)
-    }
-}
