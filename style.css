@@ -59,6 +59,7 @@ ul {
 
 .rolelist-role > h3 {
     display: inline-block;
+    font-size: small;
     margin-left: 20%;
     width: 150px;
 }
