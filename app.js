@@ -1,4 +1,5 @@
-const team = ["-","Brent","Carlos","Chris","Devin","Eric","Jesse","Joey","Jovanny","Keyshawn","Lily","Marco","Marcus","MJ","MR","Ty"]
+const team = ["-","Brent","Carlos","Chris","Devin","Eric", "ET", "Jesse","Joey","Jovanny","Keyshawn","Lily","Marco","Marcus","MJ","MR","Ty"]
+const selected = []
 
 let workSelectors = document.getElementsByClassName("workers");
 let dateSelector = document.getElementById("date");
@@ -12,10 +13,17 @@ dateSelector.setAttribute('value', today);
 for (const element of workSelectors) {
     team.forEach(member => {
         console.log(member);
+
         let option = new Option(member, member);
+        option.onclick = selectMember;
+        
         element.appendChild(option)
     }); 
 }
 
+const selectMember = () => {
 
-    
+    for (const element of workSelectors) {
+        if(element)
+    }
+}
