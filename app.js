@@ -1,4 +1,4 @@
-const team = ["-","Brent","Carlos","Chris","Devin","Eric", "ET", "Jesse","Joey","Jovanny","Keyshawn","Lily","Marco","Marcus","MJ","MR","Ty"]
+const team = ["-", "N/A", "Brent","Carlos","Chris","Devin","Eric", "ET", "Jesse","Joey","Jovanny","Keyshawn","Lily","Marco","Marcus","MJ","MR","Ty"]
 const selected = []
 
 let workSelectors = document.getElementsByClassName("workers");
