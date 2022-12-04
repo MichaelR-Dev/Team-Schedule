@@ -15,7 +15,6 @@ for (const element of workSelectors) {
         console.log(member);
 
         let option = new Option(member, member);
-        option.onclick = selectMember;
         
         element.appendChild(option)
     }); 
