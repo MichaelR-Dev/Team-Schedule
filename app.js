@@ -35,5 +35,9 @@ function addTrainer (e) {
         newElement.appendChild(option)
     });
 
+    let mommaOption = new Option(`Ya momma`, `Ya momma`);
+        
+    newElement.appendChild(mommaOption)
+
     e.outerHTML = newElement.outerHTML;
 }
